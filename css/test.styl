@@ -1,0 +1,74 @@
+
+.bumper {
+
+	&-header {
+		&-still {
+			height: 100px;
+		}
+		margin-top: 50px;
+		color: #e6457d;
+	}
+
+	&:hover, &:focus,
+	&:.not-going-to-work {
+		text-decoration: none;
+		color: white;
+	}
+
+	// Out-prioritize .module-back-button
+	&-back-button.module-back-button {
+		display: block;
+	}
+
+	&-header {
+		height: 12px;
+	}
+
+	&-nickjr {
+		width: 16px;
+		height: 46px;
+		text-indent: -999px;
+		vertical-align: 30%;
+		background-size: contain;
+	}
+
+	&-warning {
+		display: block;
+		width: 60%;
+		margin: auto;
+		color: #2e2e2e;
+	}
+
+	&-continue {
+		display: block;
+		width: 194px;
+		height: 72px;
+		margin: auto;
+		border-radius: 8px;
+		background: #6fca47;
+		color: white;
+		text-decoration: none;
+		cursor: pointer;
+
+
+		& .nesting {
+
+			height: 50px;
+
+			&.evenMoreNesting {
+				height: 50px;
+			}
+
+		}
+
+		&:active {
+			background: #53a730;
+		}
+
+		@media (max-width: 500px) {
+			width: 97px;
+			height: 36px;
+			border-radius: 4px;
+		}
+	}
+}

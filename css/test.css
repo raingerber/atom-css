@@ -1,0 +1,65 @@
+.bumper-header {
+  margin-top: 50px;
+  color: #e6457d;
+}
+.bumper-header-still {
+  height: 100px;
+}
+.bumper-header-still .thing {
+  height: 55px;
+}
+.bumper:hover,
+.bumper:focus,
+.bumper:.not-going-to-work {
+  text-decoration: none;
+  color: #fff;
+}
+.bumper-back-button.module-back-button {
+  display: block;
+}
+.bumper-header {
+  height: 12px;
+}
+.bumper-header .thing {
+  height: 55px;
+}
+.bumper-nickjr {
+  width: 16px;
+  height: 46px;
+  text-indent: -999px;
+  vertical-align: 30%;
+  background-size: contain;
+}
+.bumper-warning {
+  display: block;
+  width: 60%;
+  margin: auto;
+  color: #2e2e2e;
+}
+.bumper-continue {
+  display: block;
+  width: 194px;
+  height: 72px;
+  margin: auto;
+  border-radius: 8px;
+  background: #6fca47;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.bumper-continue .nesting {
+  height: 50px;
+}
+.bumper-continue .nesting.evenMoreNesting {
+  height: 50px;
+}
+.bumper-continue:active {
+  background: #53a730;
+}
+@media (max-width: 500px) {
+  .bumper-continue {
+    width: 97px;
+    height: 36px;
+    border-radius: 4px;
+  }
+}

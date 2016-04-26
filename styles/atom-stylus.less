@@ -1,0 +1,42 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+.atom-stylus {
+}
+
+.text-input {
+  margin: 5px;
+}
+
+// atom-text-editor::shadow .stylus-search-match .region {
+::shadow .stylus-search-match .region {
+  background: red;
+}
+
+::shadow .stylus-search-match-active .region {
+  background: green;
+}
+
+.exciting {
+  background: yellow;
+}
+
+.selector-input {
+  margin: 0.375em;
+}
+
+.atom-stylus-display {
+  padding: 0 1em;
+  color: @text-color-success;
+  &:hover {
+    background: @background-color-highlight;
+  }
+}
+
+.atom-stylus-display:empty:before {
+  color: @text-color-subtle;
+  content: '...'
+}
