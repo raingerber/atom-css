@@ -1,7 +1,5 @@
-// The ui-variables file is provided by base themes provided by Atom.
-//
-// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
-// for a full listing of what's available.
+// https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+
 @import "ui-variables";
 
 .atom-stylus {
@@ -11,12 +9,13 @@
   margin: 5px;
 }
 
-// atom-text-editor::shadow .stylus-search-match .region {
-::shadow .stylus-search-match .region {
+atom-text-editor .stylus-search-match .region,
+atom-text-editor::shadow .stylus-search-match .region {
   background: red;
 }
 
-::shadow .stylus-search-match-active .region {
+atom-text-editor .stylus-search-match-active .region,
+atom-text-editor::shadow .stylus-search-match-active .region {
   background: green;
 }
 
@@ -40,3 +39,7 @@
   color: @text-color-subtle;
   content: '...'
 }
+
+// atom search classes:
+// find-result
+// current-result
