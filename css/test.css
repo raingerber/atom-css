@@ -5,9 +5,6 @@
 .bumper-header-still {
   height: 100px;
 }
-.bumper-header-still .thing {
-  height: 55px;
-}
 .bumper:hover,
 .bumper:focus,
 .bumper:.not-going-to-work {
@@ -19,9 +16,6 @@
 }
 .bumper-header {
   height: 12px;
-}
-.bumper-header .thing {
-  height: 55px;
 }
 .bumper-nickjr {
   width: 16px;
