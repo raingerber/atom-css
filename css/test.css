@@ -63,3 +63,8 @@
     border-radius: 4px;
   }
 }
+@media (max-width: 500px) and (max-width: 500px) {
+  .bumper-continue {
+    margin: 12px;
+  }
+}
