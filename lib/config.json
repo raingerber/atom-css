@@ -1,6 +1,7 @@
 {
   "paths": [
     "Users/armstroma/github/atom-stylus/css/test.styl",
-    "Users/armstroma/github/atom-stylus/css/test2.styl"
+    "Users/armstroma/github/atom-stylus/css/test2.styl",
+    "../test2.styl"
   ]
 }
