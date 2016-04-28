@@ -1,9 +1,13 @@
+mixin()
+	.selected
+		margin: 7px;
 
 .bumper {
 
 	&-header {
 		&-still {
 			height: 100px;
+			mixin();
 		}
 		margin-top: 50px;
 		color: #e6457d;
@@ -22,6 +26,7 @@
 
 	&-header {
 		height: 12px;
+		mixin();
 	}
 
 	&-nickjr {
