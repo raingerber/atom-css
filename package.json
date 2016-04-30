@@ -15,6 +15,7 @@
     "jsonfile": "^2.3.0",
     "less": "^2.6.1",
     "lodash": "^4.8.2",
+    "messenger": "0.0.9",
     "node-sass": "^3.6.0",
     "source-map": "^0.5.3",
     "stylus": "^0.54.2",
