@@ -1,11 +1,14 @@
-.bumper-header {
+.bumper-header,
+.bumper .go {
   margin-top: 50px;
   color: #e6457d;
 }
-.bumper-header-still {
+.bumper-header-still,
+.bumper .go-still {
   height: 100px;
 }
-.bumper-header-still .selected {
+.bumper-header-still .selected,
+.bumper .go-still .selected {
   margin: 7px;
 }
 .bumper:hover,
