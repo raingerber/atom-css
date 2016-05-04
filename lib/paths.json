@@ -1,10 +1,10 @@
 {
   "input": {
-    "cwd": "/Users/armstroma/github/atom-stylus",
+    "cwd": "/Users/armstroma/Desktop/atom-css",
     "paths": [
-      "Users/armstroma/github/atom-stylus/css/test.styl",
-      "Users/armstroma/github/atom-stylus/css/test2.styl",
-      "Users/armstroma/github/atom-stylus/css/test2.styl"
+      "Users/armstroma/Desktop/atom-css/css/test.styl",
+      "Users/armstroma/Desktop/atom-css/css/test2.styl",
+      "Users/armstroma/Desktop/atom-css/css/test2.styl"
     ],
     "ports": [
       "8001",
