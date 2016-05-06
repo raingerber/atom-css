@@ -42,7 +42,7 @@ atom-text-editor::shadow .stylus-search-match-active .region {
 
 .preprocessor-preview-tree-panel {
   max-width: 250px;
-  padding: 3em 10px 10px 5px;
+  padding: 0 10px 10px 5px;
   // a:hover {
   //   background: @background-color-highlight;
   // }
@@ -60,7 +60,17 @@ atom-text-editor::shadow .stylus-search-match-active .region {
 .preprocessor-preview-search-input-bar {
   display: flex;
   align-items: center;
-  margin: 0.375em;
+  margin: 0.375rem;
+}
+
+.pre-preview-search-header {
+  height: 3rem;
+  // font-size: 2em;
+  line-height: 3rem;
+  text-align: center;
+  font-size: 1.5rem;
+  cursor: default;
+  opacity: .5;
 }
 
 // atom search classes:
