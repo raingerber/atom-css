@@ -1,0 +1,27 @@
+
+Find in Source + Find in Output buttons
+  Whichever you click, have a header in the search result saying which one
+
+hiding/showing
+  option to listen to find (F-key)
+  or just the dedicated command
+
+filter not working
+
+tooltips
+
+view all paths that are being watched
+highlight briefly when that file is being compiled
+
+grunt task
+  tell it what port to listen to for receiving updated sourcemaps (config file)
+   it emits event whenever the source files are recompiled
+   can OPTIONALLY include the sourcemaps
+
+selectors with commas and spanning multiple line lines - bug with clicking later lines
+
+using column/row from the earliest source possible
+  instead of alway settings it to 0
+
+watch for changes in the path config
+  test adding/deleting files + inputting incorrect paths/dir paths
